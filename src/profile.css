@@ -1,0 +1,82 @@
+#header_out{
+    z-index: 2;
+}
+#main{
+    padding-top: 90px;
+}
+.profile1{
+    width: 40%;
+    height: 540px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 7% 0 5% 5%;
+    box-shadow: inset 10px 10px 10px 10px black;
+    border-radius: 50px 150px 0 0;
+    background: url(./images/fon2.jfif);
+    background-size: cover;
+}
+.profile1 input{
+    list-style-type: none;
+    border: 2px solid rgb(255, 255, 255);
+    width: 70%;
+    height: 70px;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    text-indent: 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.607);
+}
+.profile2{
+    width: 32%;
+    height: 600px;
+    margin-left: 47%;
+    background-color: rgba(255, 255, 255, 0.836);
+    position: relative;
+    bottom: 500px;
+    padding: 5%;
+    box-shadow: 10px 10px 10px 0 #cb833786;
+}
+.profile2 li{
+    list-style-type: none;
+}
+.profile2 img{
+    width: 50%;
+    border-radius: 200px;
+    margin: 5% 25%;
+}
+.profile2_text{
+    font-size: 30px;
+    text-indent: 5px;
+    border: inherit;
+}
+.zagolovok{
+    color: white;
+    margin: 40px auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.profile_button{
+    font-size: 30px;
+    background-color:#273A65;
+    border: 0px solid #15254a;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 50px;
+    padding: 5px 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.26);
+    margin-left: 35%;
+    margin-top: 9%;
+
+}
+.profile_button:hover{
+    font-size: 29px;
+    padding: 4px 7px;
+    color: #273A65;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #273A65;
+}

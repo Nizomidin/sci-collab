@@ -1,0 +1,179 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: black;
+}
+/* header */
+#header_out{
+  width: 100%;
+  height: 70px;
+  background-color: #382c67d7;
+  position: fixed;
+  box-shadow: 0 0 15px 0 #3e3363;
+}
+#header{
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+}
+.header_table{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.t1{
+  text-align: right;
+}
+.t2{
+  width: 22%;
+  text-align: right;
+}
+.t3{
+  text-align: right;
+  width: 8%;
+}
+.t4{
+  text-align: right;
+  height: 40px;
+}
+.t5{
+  text-align: left;
+  width: 10%;
+}
+.t5 img{
+  height: 35px;
+  margin-left: 7px;
+}
+.t1 img{
+  height: 64px;
+  margin-left: 1%;
+  margin-top: 3px;
+}
+.header_table_input{
+  font-size: 25px;
+  border-radius: 30px;
+  text-indent: 20px;
+  padding: 2px;
+  color: black;
+  border: 1px solid rgb(54, 40, 71);
+
+}
+.header_table a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.header_table a:hover{
+  color: #F46B75;
+  font-weight: bold;
+}
+.header_table_button1{
+  font-size: 30px;
+  background-color:#0000000c;
+  border: 2px solid #10539f;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 50px;
+  padding: 5px 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.header_table_button1:hover{
+  font-size: 29px;
+  padding: 4px 7px;
+  color: #10539f;
+  border: 2px solid #ffffff;
+}
+.header_table_button2{
+  font-size: 30px;
+  background-color:#10539f;
+  border: 0px solid #10539f;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 50px;
+  padding: 5px 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.header_table_button2:hover{
+  font-size: 29px;
+  padding: 4px 7px;
+  color: #10539f;
+  background-color: white;
+  border: 2px solid #10539f;
+
+}
+
+
+
+/* main */
+#main{
+  width: 98%;
+  height: 2000px;
+  margin: 0 auto;
+  /* background-color: rgb(0, 158, 172); */
+}
+
+/* footer */
+#footer_out{
+  width: 100%;
+  height: 210px;
+  background-color: #382c67d7;
+}
+#footer{
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: rgb(0, 154, 220); */
+}
+.footer_table{
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: white;
+  padding: 0 30px;
+}
+.footer_table a{
+  color: #af5a5f;
+  text-decoration: none;
+}
+.footer_table a:hover{
+  color: #af5a5f;
+  text-decoration: underline;
+}
+.copyright{
+  text-align: right;
+  padding-right: 10px;
+}
+.copyright, .copy{
+  border-top: 2px solid white;
+}
+.sci, .nasa, .ash{
+  width: 100px;
+  border-radius: 200px;
+  margin-left: 20px;
+}
+.ash{
+  margin-right: 70px;
+}
+
+
+
+/*  */
+/*  */
+/* scroll */
+::-webkit-scrollbar {
+  width: 8px; /* ширина скроллбара */
+}
+::-webkit-scrollbar-track {
+  background-color: #222134; /* цвет фона трека скроллбара */
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right bottom, #5e83ad, #1e528d, #0e3f76, #092a4f); /* цвет ползунка скроллбара */
+  border-radius: 8px; /* скругление углов ползунка */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right bottom, #8a72b9, #503488, #3f1b86, #1b0744); /* цвет ползунка при наведении на него курсора */
+}

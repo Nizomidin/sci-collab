@@ -1,0 +1,35 @@
+/* ProfileCard.css */
+.profile-card {
+    max-width: 300px;
+    background-color: #20232a;
+    color: #61dafb;
+    border: 1px solid #61dafb;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nasa-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .profile-details {
+    margin-top: 16px;
+  }
+  
+  .profile-detail {
+    margin-bottom: 8px;
+  }
+  
